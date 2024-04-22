@@ -15,18 +15,29 @@ async function startProgram() {
 }
 */
 
-
+/*
 async function startProgram() {
 
-	setMainLed({ r: 0, g: 0, b: 255 });
-	await speak("Hello Square", true);
+	setMainLed({ r: 45, g: 125, b: 175 });
+	await speak("Hello Mr. Lange", true);
 	await delay(1);
-	for (var _i1 = 0; _i1 < 4; _i1++) {
+	for (var squareCount = 0; squareCount < 4; squareCount++) {
 		setMainLed(getRandomColor());
-		await Sound.Game.Coin.play(true);
+		await Sound.EightBit.Bumper.play(true);
 		await roll((getHeading() + 90), 60, 1);
 		await delay(1);
-
 	}
 
 }
+*/
+
+
+async function startProgram() {
+
+
+}
+
+
+
+
+
