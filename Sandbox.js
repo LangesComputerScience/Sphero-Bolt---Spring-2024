@@ -14,7 +14,6 @@ async function startProgram() {
 	setSpeed(0);
 }
 */
-
 /*
 async function startProgram() {
 
@@ -23,21 +22,20 @@ async function startProgram() {
 	await delay(1);
 	for (var squareCount = 0; squareCount < 4; squareCount++) {
 		setMainLed(getRandomColor());
-		await Sound.EightBit.Bumper.play(true);
+		await Sound.ScienceFiction.Blaster.play(true);
 		await roll((getHeading() + 90), 60, 1);
 		await delay(1);
 	}
 
 }
+
 */
 
-
 async function startProgram() {
-
-
+	await roll((getHeading() + 0), 60, 2);
+	await delay(1);
+	await roll((getHeading() + 90), 60, 2);
+	await delay(1);
+	await roll((getHeading() - 180), 60, 2);
+	
 }
-
-
-
-
-
