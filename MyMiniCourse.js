@@ -8,7 +8,13 @@
 async function startProgram() {
 	// Mr. Lange
 	await roll((getHeading() + 0), 60, 2);
-	await delay(1);
+	await delay(2);
 	await roll((getHeading() + 90), 60, 2);
-	await delay(1);
+	await delay(2);
+
+	// Michael Jordan
+	await roll((getHeading() + 125), 60, 5);
+	await delay(2);
+	await roll((getHeading() + 320), 60, 2);
+	await delay(2);
 }
