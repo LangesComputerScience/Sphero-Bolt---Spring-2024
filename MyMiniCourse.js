@@ -6,5 +6,9 @@
 // Program URL: https://edu.sphero.com/program/16743345/edit
 
 async function startProgram() {
-	// Write code here
+	// Mr. Lange
+	await roll((getHeading() + 0), 60, 2);
+	await delay(1);
+	await roll((getHeading() + 90), 60, 2);
+	await delay(1);
 }
