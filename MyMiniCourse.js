@@ -21,7 +21,7 @@ async function startProgram() {
 	await delay(2);
 
 	// Mr. Lange - Checkpoint Three - Green
-	setMainLed({ r: 255, g: 0, b: 0 });
+	setMainLed({ r: 0, g: 255, b: 0 });
 	await roll((getHeading() + 0), 60, 2);
 	await delay(2);
 	await roll((getHeading() + 90), 60, 2);
